@@ -1,0 +1,17 @@
+blinker
+click
+Flask
+gunicorn
+importlib_metadata
+itsdangerous
+Jinja2
+ldap3
+MarkupSafe
+ntlm-auth
+pyasn1
+pyasn1_modules
+pyldap
+python-dotenv
+python-ldap
+Werkzeug
+zipp
