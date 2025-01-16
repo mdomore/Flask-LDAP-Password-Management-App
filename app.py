@@ -97,7 +97,7 @@ def change_password():
 
     try:
         conn = ldap_connect()
-        user_dn = get_user_dn_by_samaccountname(conn, username)
+        user_dn, _ = get_user_dn_by_samaccountname(conn, username)
 
         # Bind with the user's current credentials to verify the current password
         try:
